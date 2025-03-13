@@ -5,8 +5,8 @@ $formtype = isset($data) ? 'Edit' : '';
 $thumb = '';
 $size_w = 0;
 $size_h = 0;
-$square = 'https://via.placeholder.com/300x250';
-$long = 'https://via.placeholder.com/1000x120';
+$square = 'https://fakeimg.pl/300x250';
+$long = 'https://fakeimg.pl/1000x120';
 switch ($data->id) {
   case 1: $thumb = $data->image ?? $long;
           $size_w = 1000;

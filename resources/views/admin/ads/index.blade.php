@@ -59,8 +59,8 @@
           data: 'image',
           name: 'image',
           render: function (data, type, row, meta) {
-            square = 'https://via.placeholder.com/300x250'
-            long = 'https://via.placeholder.com/1000x120'
+            square = 'https://fakeimg.pl/300x250'
+            long = 'https://fakeimg.pl/1000x120'
             if (data == null) {
               switch (row.id) {
                 case 1: img = long; break;

@@ -120,14 +120,14 @@
             @if ($ad_sidetop->active == 1)
                 <div class="banner-ad border rounded shadow p-2 mb-3">
                     <a href="{{ $ad_sidetop->url ?? '#' }}" target="_blank">
-                        <img src="{{ $ad_sidetop->image ?? 'https://via.placeholder.com/300x250' }}" class="img-fluid rounded" alt="Iklan Samping 1">
+                        <img src="{{ $ad_sidetop->image ?? 'https://fakeimg.pl/300x250' }}" class="img-fluid rounded" alt="Iklan Samping 1">
                     </a>
                 </div>
             @endif
             @if ($ad_sidebot->active == 1)
                 <div class="banner-ad border rounded shadow p-2 mb-3">
                     <a href="{{ $ad_sidebot->url ?? '#' }}" target="_blank">
-                        <img src="{{ $ad_sidebot->image ?? 'https://via.placeholder.com/300x250' }}" class="img-fluid rounded" alt="Iklan Samping 2">
+                        <img src="{{ $ad_sidebot->image ?? 'https://fakeimg.pl/300x250' }}" class="img-fluid rounded" alt="Iklan Samping 2">
                     </a>
                 </div>
             @endif

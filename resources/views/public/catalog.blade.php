@@ -40,7 +40,7 @@
                             <div class="d-flex flex-column align-items-center">
                                 <div class="banner-ad border rounded shadow p-2 mb-3">
                                     <a href="{{ $ad_top->url ?? '#' }}" target="_blank">
-                                        <img src="{{ $ad_top->image ?? 'https://via.placeholder.com/1000x120' }}" class="img-fluid rounded" alt="Iklan Atas">
+                                        <img src="{{ $ad_top->image ?? 'https://fakeimg.pl/1000x120' }}" class="img-fluid rounded" alt="Iklan Atas">
                                     </a>
                                 </div>
                             </div>
@@ -85,7 +85,7 @@
                             <div class="d-flex flex-column align-items-center">
                                 <div class="banner-ad border rounded shadow p-2 mb-3">
                                     <a href="{{ $ad_bot->url ?? '#' }}" target="_blank">
-                                        <img src="{{ $ad_bot->image ?? 'https://via.placeholder.com/1000x120' }}" class="img-fluid rounded" alt="Iklan Bawah">
+                                        <img src="{{ $ad_bot->image ?? 'https://fakeimg.pl/1000x120' }}" class="img-fluid rounded" alt="Iklan Bawah">
                                     </a>
                                 </div>
                             </div>
@@ -298,12 +298,12 @@
             data.catalog_images.forEach((image, index) => {
                 $('#productCarousel .carousel-inner').append(`
                     <div class="carousel-item ${index == 0 ? 'active' : ''}">
-                        <img src="${image.image_path ? '/media/products/' + image.image_path : 'https://via.placeholder.com/500x500'}" class="d-block w-100" alt="Product Image ${index + 1}" style="object-fit: contain; width: 100%; height: 320px;">
+                        <img src="${image.image_path ? '/media/products/' + image.image_path : 'https://fakeimg.pl/500x500'}" class="d-block w-100" alt="Product Image ${index + 1}" style="object-fit: contain; width: 100%; height: 320px;">
                     </div>
                 `);
                 $('#productCarousel .carousel-indicators').append(`
                     <li data-target="#productCarousel" data-slide-to="${index}" class="${index == 0 ? 'active' : ''}">
-                        <img src="${image.image_path ? '/media/products/' + image.image_path : 'https://via.placeholder.com/50x50'}" alt="Thumb ${index + 1}">
+                        <img src="${image.image_path ? '/media/products/' + image.image_path : 'https://fakeimg.pl/50x50'}" alt="Thumb ${index + 1}">
                     </li>
                 `);
             });

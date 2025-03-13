@@ -75,7 +75,7 @@
                         <div class="d-flex flex-column align-items-center">
                             <div class="banner-ad border rounded shadow p-2 mb-3">
                                 <a href="{{ $ad_top->url ?? '#' }}" target="_blank">
-                                    <img src="{{ $ad_top->image ?? 'https://via.placeholder.com/1000x120' }}" class="img-fluid rounded" alt="Iklan Atas">
+                                    <img src="{{ $ad_top->image ?? 'https://fakeimg.pl/1000x120' }}" class="img-fluid rounded" alt="Iklan Atas">
                                 </a>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                         <div class="d-flex flex-column align-items-center">
                             <div class="banner-ad border rounded shadow p-2 mb-3">
                                 <a href="{{ $ad_bot->url ?? '#' }}" target="_blank">
-                                    <img src="{{ $ad_bot->image ?? 'https://via.placeholder.com/1000x120' }}" class="img-fluid rounded" alt="Iklan Bawah">
+                                    <img src="{{ $ad_bot->image ?? 'https://fakeimg.pl/1000x120' }}" class="img-fluid rounded" alt="Iklan Bawah">
                                 </a>
                             </div>
                         </div>
