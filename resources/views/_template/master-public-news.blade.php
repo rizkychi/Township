@@ -78,7 +78,7 @@
 
     <style>
         .header-middle.v2 {
-            background-image: linear-gradient(to right, #99dcf6 50%, #7a89b3 50%);
+            background-image: linear-gradient(to right, #000 50%, #000 50%);
             /* background-color: '#99dcf6'; */
         }
         #featured-slider-5 .item::before {
